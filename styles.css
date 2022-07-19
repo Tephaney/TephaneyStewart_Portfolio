@@ -180,10 +180,10 @@ h2 span {
 }
 
 .image {
-    width: 37rem;
+    width: 25rem;
     position: absolute;
     top: 18%;
-    left: -20%;
+   
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
     border-radius: 50%;
     border: .2rem solid white ;
@@ -213,7 +213,7 @@ h2 span {
     margin-left: 3rem;
     margin-right: 3rem;
     padding-bottom: 2rem;
-    border: solid 1rem var(--primary-color);
+    /* border: solid 1rem var(--primary-color); */
 }
 
 .card-title {
