@@ -11,21 +11,290 @@
     <title>Tephaney Stewart Portfolio</title>
 </head>
 <body>
-    <div class="header">
-        <div class="side-nav">
-            <a href="#" class="logo">
-                <img src="imgs/brownlogo.png" alt="Logo" class="logo-img">
-            </a>
-            <ul class="nav-links">
-                <li><a href="#"><i class="fa-solid fa-user"></i><p>About Me</p></a></li>
-                <li><a href="#"><i class="fa-solid fa-code"></i><p>My Skills</p></a></li>
-                <li><a href="#"><i class="fa-solid fa-laptop-code"></i><p>My Work</p></a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i><p>Contact Me</p></a></li>
-                <div class="active"></div>
-            </ul>
-        </div>
-    </div>
 
-   
+    <div class="container-fluid">
+        <!-- === SIDE NAV === -->
+
+            <nav class="col">
+                <div class="side-nav">
+                    <a href="#home" class="logo">
+                        <img src="imgs/brownlogo.png" alt="Logo" class="logo-img">
+                    </a>
+                    <ul class="nav-links">
+                        <li><a href="#about"><i class="fa-solid fa-user"></i><p>About Me</p></a></li>
+                        <li><a href="#skills"><i class="fa-solid fa-code"></i><p>My Skills</p></a></li>
+                        <li><a href="#work"><i class="fa-solid fa-laptop-code"></i><p>My Work</p></a></li>
+                        <li><a href="#"><i class="fa-solid fa-file-pdf"></i><p>My Resume</p></a></li>
+                        <li><a href="#contact"><i class="fa-solid fa-envelope"></i><p>Contact Me</p></a></li>
+                        <div class="active"></div>
+                    </ul>
+                    <div class="footer-icons">
+                        <a class="btn btn-outline-light btn-floating m-1" href="mailto:tephaneystewart@gmail.com" role="button"><i class="fa-solid fa-envelope"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/tephaney/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </nav>
+                <!-- === MAIN CONTENT === -->
+
+            <div class="main container">
+                <div class="banner-text" id="home">
+                    <img src="imgs/banner2.jpg" alt="" class="hero-image">
+                </div>    
+                    <!-- About Me-->
+                <h3 class="about-me-header display-2 section-titles">About Me</h3>
+                <section class="container about-me" id="about">
+                    
+                    <div class="row all-me">
+                        <div class="about-text col all-about-me col">
+                            <h1 class="sub-heading centered-1">Hey, my name is Tephaney Stewart</h1>
+                            <h2 class="typing centered-2"> I am a <span class="auto-input"></span></h2> 
+                        </div>
+                        <div class="img-col all-about-me">
+                            <img src="imgs/IMG_0917.jpg" alt="Tephaney Stewart" class="me">
+                        </div>
+                        <div class="row about-me-row">
+                            <p class="about-me-paragraph">Full Stack Web and Mobile Developer with a passion for Front End and UI Design. <br> I am intent on writing clean and efficient code, while designing a beautiful and functional user experience.</p>
+                            <button class="about-me-btn">My Resume<i class="fas fa-angle-double-right btn-arrow"></i></button>
+                        </div>
+                        
+                    </div>
+                </section>
+                        
+                        <!-- End of About Me -->
+            
+                        <!-- Skills -->
+                <section class="bg-transparent p-3 m-5" id="skills">
+                    <div class="container tech-skills">
+                        <!--Title-->
+                
+                        <div class="row">
+                            <div class="col text-center mb-5">
+                                <h3 class="display-2 section-titles">Technical Skills</h3>
+                            </div>
+                        </div>
+                        <!--End of Title-->
+                
+                        <div class="row text-center tech">
+                            <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+                                <i class="fas fa-desktop fa-6x mb-3 ts-icon"></i>
+                                <h1 class="ts-titles">Programming</h1>
+                                <p class="text-box">HTML | CSS | SASS | JavaScript ES6 |
+                                    Node | React React Hooks | Redux
+                                    Express | jQuery | Bootstrap MongoDB</p>
+                                
+                            </div>
+                            <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+                                <i class="fa-solid fa-mobile-screen-button fa-6x mb-3 ts-icon"></i>
+                                <h1 class="ts-titles">Mobile Development</h1>
+                                <p class="text-box"> React | React Native | Expo SDK</p>
+                                
+                            </div>
+                            <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+                                <i class="fa-solid fa-pen fa-6x mb-3 ts-icon"></i>
+                                <h1 class="ts-titles">Design</h1>
+                                <p class="text-box">UX Design | Graphic Design | Personas Information Architecture | Wireframes | Journey Mapping Storyboarding |
+                                    Sketch | Figma | Adobe</p>       
+                
+                            </div>
+                        </div>
+                    </div>
+                
+                </section>  
+                        <!--End of Skills-->
+
+
+                        <!-- Projects -->
+                <section class="row projects-row" id="projects">
+                    <div class="container projects-container">
+                
+                        <!--Title-->
+                        <div class="row" id="work">
+                            <div class="col text-center mb-5">
+                                <h3 class="display-2 section-titles">My Work</h3>
+                            </div>
+                        </div>
+                        <!--End of Title-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 portfolio-cards" style="width: 68rem;">
+                        <div class="col">
+                            <div class="card h-100">
+                            <img src="/imgs/HomePage.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Snow White's Apple Pies</h5>
+                                <p class="card-text"> Built a responsive website using React... </p>
+                                <div class="card-div">
+                                    <a href="#" class="btn btn-card btn-1"><i class="fa-solid fa-laptop icon-card"></i>Live Site</a>
+                                    <a href="#" class="btn btn-card btn-2"><i class="fa-brands fa-github icon-card"></i>GitHub</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="/imgs/Photobook-Travel.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis perferendis, consectetur itaque earum rerum.</p>
+                                <div class="card-div">
+                                    <a href="#" class="btn btn-card btn-1"><i class="fa-solid fa-laptop icon-card"></i>Live Site</a>
+                                    <a href="#" class="btn btn-card btn-2"><i class="fa-brands fa-github icon-card"></i>GitHub</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card h-100">
+                                <img src="/imgs/FurnitureStore.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam totam impedit, laudantium asperiores delectus earum.</p>
+                                <div class="card-div">
+                                    <a href="#" class="btn btn-card btn-1"><i class="fa-solid fa-laptop icon-card"></i>Live Site</a>
+                                    <a href="#" class="btn btn-card btn-2"><i class="fa-brands fa-github icon-card"></i>GitHub</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card h-100">
+                                <img src="/imgs/Tephaney-Stewart-Portfolio.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Project 4</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum doloribus saepe sed fuga voluptate.</p>
+                                <div class="card-div">
+                                    <a href="#" class="btn btn-card btn-1"><i class="fa-solid fa-laptop icon-card"></i>Live Site</a>
+                                    <a href="#" class="btn btn-card btn-2"><i class="fa-brands fa-github icon-card"></i>GitHub</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card h-100">
+                                <img src="/imgs/Tephaney-Stewart-Portfolio.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Project 5</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum doloribus saepe sed fuga voluptate.</p>
+                                <div class="card-div">
+                                    <a href="#" class="btn btn-card btn-1"><i class="fa-solid fa-laptop icon-card"></i>Live Site</a>
+                                    <a href="#" class="btn btn-card btn-2"><i class="fa-brands fa-github icon-card"></i>GitHub</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card h-100">
+                                <img src="/imgs/Tephaney-Stewart-Portfolio.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Project 6</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque harum fuga modi esse veritatis ipsa.</p>
+                                <div class="card-div">
+                                    <a href="#" class="btn btn-card btn-1"><i class="fa-solid fa-laptop icon-card"></i>Live Site</a>
+                                    <a href="#" class="btn btn-card btn-2"><i class="fa-brands fa-github icon-card"></i>GitHub</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        
+                    </div>
+                
+                </section>           
+                        <!-- End of Projects -->
+        
+            <!-- footer -->
+
+                <footer class="footer" id="contact">
+                    <div class="main-part">
+                        <div class="footer-list-wrapper">
+                            <h4 class="footer-heading">Where to Find Me</h4>
+                            <ul class="footer-list-1">
+                                <li class="footer-list-item">
+                                    <i class="fa-solid fa-location-dot city"> California, USA </i>
+                                </li>
+                            </ul>
+                            <ul class="footer-list">
+                                <li class="footer-list-item">
+                                    <a class="btn btn-outline-light btn-floating m-1 city-icon" href="mailto:TephaneyStewart@gmail.com" role="button"><i class="fa-solid fa-envelope fa-lg"></i></a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a class="btn btn-outline-light btn-floating m-1 city-icon" href="https://www.linkedin.com/in/tephaney/" target="_blank" role="button"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a class="btn btn-outline-light btn-floating m-1 city-icon" href="#" role="button"><i class="fab fa-github fa-lg"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact">
+                            <h3 class="footer-heading">Contact Me</h3>
+                            <div class="container">
+                                <form action="action_page.php">
+                                <div class="row footer-input">
+                                    <div class="col-25">
+                                    <label for="fname">First Name</label>
+                                    </div>
+                                    <div class="col-75 test">
+                                    <input type="text" id="fname" name="firstname" placeholder="Your First Name...">
+                                    </div>
+                                </div>
+                                <div class="row footer-input">
+                                    <div class="col-25">
+                                    <label for="lname">Last Name</label>
+                                    </div>
+                                    <div class="col-75">
+                                    <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+                                    </div>
+                                </div>
+                                <div class="row footer-input">
+                                    <div class="col-25">
+                                    <label for="email">Your Email</label>
+                                    </div>
+                                    <div class="col-75">
+                                    <input type="email" id="email" name="email" placeholder="Your Email...">
+                                    </div>
+                                </div>
+                                <div class="row footer-input">
+                                    <div class="col-25">
+                                    <label for="message">Message</label>
+                                    </div>
+                                    <div class="col-75">
+                                    <textarea id="message" name="message" placeholder="Your Message..." style="height:200px"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <input type="submit" value="Submit" class="footer-btn">
+                                </div>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="creator-part">
+                        <div class="copyright-text">
+                            <p class="copy-paragraph">Copyright &copy; 2022. Made With <i class="fas fa-heart"></i> by <span class="copy-paragraph">Tephaney Stewart. </span> All Rights Reserved.</p>
+                        </div>
+
+                    </div>
+
+                </footer>
+                <!-- End of Footer-->
+            </div>
+
+            
+
+    <!-- JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const typed = new Typed(".auto-input", {
+            strings: ["Full Stack Developer...", "Mobile Developer...", "UI Designer!"],
+            typeSpeed: 50,
+            backSpeed: 15,
+            loop: true
+        })
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
