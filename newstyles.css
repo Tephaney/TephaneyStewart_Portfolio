@@ -487,7 +487,65 @@ span .copy-paragraph {
 
 /* RESPONSIVENESS */
 
-/* -Side Nav- */
+@media only screen and (max-width: 1920px) {
+  
+ .side-nav {
+  left: 22rem;
+ }
+}
+
+@media only screen and (max-width: 1820px) {
+  .side-nav {
+    left: 20rem;
+  }
+
+  .projects-row {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1776px) {
+  .side-nav {
+    left: 12rem;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  .side-nav {
+    left: 8rem;
+  }
+
+  .projects-row {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1601px) {
+  .side-nav {
+    left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .side-nav {
+    left: -1rem;
+  }
+
+}
+
+@media only screen and (max-width: 1450px) {
+  .side-nav {
+    left: -2rem;
+  }
+
+  .portfolio-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .side-nav {
