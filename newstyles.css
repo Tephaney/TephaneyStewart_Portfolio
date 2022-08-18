@@ -492,6 +492,10 @@ span .copy-paragraph {
  .side-nav {
   left: 22rem;
  }
+
+ .projects-row {
+  margin-right: 3rem;
+ }
 }
 
 @media only screen and (max-width: 1820px) {
@@ -518,6 +522,11 @@ span .copy-paragraph {
   .projects-row {
     margin-right: 3rem;
   }
+
+  .about-Container {
+    padding: 5rem;
+  }
+
 }
 
 @media only screen and (max-width: 1601px) {
@@ -526,10 +535,17 @@ span .copy-paragraph {
   }
 }
 
+@media only screen and (max-width: 1658px) {
+  .portfolio-cards {
+    width: 65rem !important;
+  }
+}
+
 @media only screen and (max-width: 1500px) {
   .side-nav {
     left: -1rem;
   }
+
 
 }
 
@@ -538,14 +554,113 @@ span .copy-paragraph {
     left: -2rem;
   }
 
+}
+
+@media only screen and (max-width: 1400px) {
+  .side-nav {
+    left: .2rem;
+  }
+
+  .about-Container {
+    margin-right: 2rem;
+  }
+
   .portfolio-cards {
-    display: flex;
-    flex-wrap: wrap;
+    width: 55rem !important;
   }
 
 }
 
+@media only screen and (max-width: 1355px) {
+  .portfolio-cards {
+    width: 50rem !important;
+  }
+}
 
+@media only screen and (max-width: 1345px) {
+  .side-nav {
+    left: -2rem;
+  }
+
+  .about-Container {
+    padding: 6rem;
+  }
+
+  .about-Container {
+    padding: 9rem;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1201px) {
+
+  .side-nav {
+    left: -1rem;
+  }
+
+  .projects-row {
+    margin-right: -2rem;
+  }
+
+  .portfolio-cards {
+    width: 45rem !important;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 990px) {
+
+  .side-nav {
+    left: .45rem;
+  }
+
+  .portfolio-cards {
+    width: 40rem !important;
+  }
+
+  .projects-row {
+    margin-right: -6rem;
+  }
+
+  .about-Container {
+    padding: 3rem;
+  }
+
+  .me {
+    left: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 970px) {
+  .about-Container {
+    padding: 5rem;
+  }
+
+  .projects-row {
+    margin-right: -9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio-cards {
+    width: 30rem !important;
+  }
+
+  .projects-row {
+    margin-right: -9.5rem;
+  }
+
+  .hero-image {
+    width: 90%;
+    height: 50vh;  
+  }
+
+}
 
 @media only screen and (max-width: 600px) {
   .side-nav {
